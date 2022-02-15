@@ -1,5 +1,7 @@
 // SPDX-License-Identifier: MIT
-pragma solidity ^0.8.2;
+pragma solidity ^0.8.8;
+
+import "./contracts/auctions/dutchAuction.sol";
 
 contract SimpleStorage {
   uint256 storedData;
